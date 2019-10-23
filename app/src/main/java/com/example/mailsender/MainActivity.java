@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent sendIntent = new Intent(Intent.ACTION_SEND);
-                sendIntent.setType("message/rfc822");
-                sendIntent.putExtra(Intent.EXTRA_EMAIL, addres.getText());
-                sendIntent.putExtra(Intent.EXTRA_SUBJECT, subject.getText());
-                sendIntent.putExtra(Intent.EXTRA_TEXT, message.getText());
-
-                startActivity(Intent.createChooser(sendIntent, "Send mail..."));
+//                Intent sendIntent = new Intent(Intent.ACTION_SEND);
+//                sendIntent.setType("message/rfc822");
+//                sendIntent.putExtra(Intent.EXTRA_EMAIL, addres.getText());
+//                sendIntent.putExtra(Intent.EXTRA_SUBJECT, subject.getText());
+//                sendIntent.putExtra(Intent.EXTRA_TEXT, message.getText());
+//
+//                startActivity(Intent.createChooser(sendIntent, "Send mail..."));
 
             }
         });
